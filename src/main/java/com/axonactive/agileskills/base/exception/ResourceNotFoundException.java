@@ -2,8 +2,8 @@ package com.axonactive.agileskills.base.exception;
 
 import lombok.Getter;
 
-import javax.ejb.ApplicationException;
-import javax.ws.rs.core.Response;
+import jakarta.ejb.ApplicationException;
+import jakarta.ws.rs.core.Response;
 
 @Getter
 @ApplicationException
