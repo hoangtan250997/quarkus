@@ -7,8 +7,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Size;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
 import static com.axonactive.agileskills.base.exception.ErrorMessage.DEPARTMENT_NAME_LENGTH_CONSTRAINT;
 import static com.axonactive.agileskills.base.exception.ErrorMessage.DEPARTMENT_NAME_NULL_OR_BLANK;

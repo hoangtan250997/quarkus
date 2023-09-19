@@ -7,7 +7,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotBlank;
 
 import static com.axonactive.agileskills.base.exception.ErrorMessage.TEAM_NAME_NULL_OR_BLANK;
 

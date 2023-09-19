@@ -3,19 +3,19 @@ package com.axonactive.agileskills.base.config;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
-import java.util.ResourceBundle;
-
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class AppConfigService {
-    private static final ResourceBundle rb = ResourceBundle.getBundle("jwt");
-    private static final Integer TIME_TO_LIVE = Integer.valueOf(rb.getString("jwt.time-to-live"));
+    private static final String SECRET_KEY = "agileskills";
+    private static final String ISSUER = "nonIT";
+
+    private static final int TIME_TO_LIVE = 72000;
 
     public static String getSecretKey() {
-        return rb.getString("jwt.secret.key");
+        return SECRET_KEY;
     }
 
     public static String getIssuer() {
-        return rb.getString("jwt.issuer");
+        return ISSUER;
     }
 
     public static Integer getTimeToLive() {
