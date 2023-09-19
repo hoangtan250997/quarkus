@@ -25,8 +25,7 @@ import java.util.Optional;
 public abstract class BaseDAO<E> {
 
     private final Class<E> entityClass;
-//    @PersistenceContext(unitName = "agileskills")
-//    @Produces
+
     @Inject
     protected EntityManager em;
 

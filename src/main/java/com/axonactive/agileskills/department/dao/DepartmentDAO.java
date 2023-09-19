@@ -4,7 +4,6 @@ import com.axonactive.agileskills.base.dao.BaseDAO;
 import com.axonactive.agileskills.base.entity.StatusEnum;
 import com.axonactive.agileskills.department.entity.DepartmentEntity;
 
-import jakarta.ejb.Stateless;
 import jakarta.enterprise.context.ApplicationScoped;
 
 import java.util.List;
